@@ -14,6 +14,8 @@ set shiftwidth=4
 "Set color schema to desert
 colorscheme elflord
 
+syntax on
+
 "Set auto indent, as show below. 'int b' will indent according to 'int b'
 "Set smart indent, as show below, 'int a' will indent according to the '{'
 "void main() {
@@ -29,6 +31,9 @@ set incsearch
 "Highlight search result
 set hlsearch
 
+"statusline
+set statusline=%F%m%r%h%w\ %=[Column=%01v][%p%%]\ [Number\ of\ Rows=%L]
+set laststatus=2
 
 "Do case insensitive matching
 "set ignorecase
