@@ -31,5 +31,3 @@
 
 	6. python.vim
 	a) 介绍: python语法高亮
-
-	测试提交
