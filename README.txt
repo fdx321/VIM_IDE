@@ -1,33 +1,33 @@
 					VIM IDE for C and Python
-	ÓÉÓÚÏ²»¶Ê¹ÓÃVim(²»ÊÇ×°B£¬ÊÇÕæÏ²»¶)£¬ÎªÁË·½Ãæ£¬ÕâÀï¼ÇÂ¼ÁËÒ»Ð©ÎÒ×Ô¼ºÏ²»¶µÄVimÅäÖÃ¡£
-Ò»Ð©»ù±¾µÄÅäÖÃ¶¼ÔÚ.vimrcÎÄ¼þÖÐ×¢ÊÍËµÃ÷ÁË£¬ÕâÀïÖ÷Òª½éÉÜÒ»ÏÂËùÊ¹ÓÃµÄ²å¼þ¡£
+	ç”±äºŽå–œæ¬¢ä½¿ç”¨Vimï¼Œä¸ºäº†æ–¹ä¾¿ï¼Œè¿™é‡Œè®°å½•äº†ä¸€äº›æˆ‘è‡ªå·±å–œæ¬¢çš„Vimé…ç½®ã€‚
+ä¸€äº›åŸºæœ¬çš„é…ç½®éƒ½åœ¨.vimrcæ–‡ä»¶ä¸­æ³¨é‡Šè¯´æ˜Žäº†ï¼Œè¿™é‡Œä¸»è¦ä»‹ç»ä¸€ä¸‹æ‰€ä½¿ç”¨çš„æ’ä»¶ã€‚
 
 	1. minibufexpl.vim
-	a) ½éÉÜ£º¸Ã²å¼þÓÃÓÚÏÔÊ¾Vim¶¥¶ËµÄTab±êÇ©
-	b) ÅäÖÃ·½·¨£º½«¸Ã²å¼þ·ÅÔÚ.vim/pluginÖÐ¼´¿É
+	a) ä»‹ç»ï¼šè¯¥æ’ä»¶ç”¨äºŽæ˜¾ç¤ºVimé¡¶ç«¯çš„Tabæ ‡ç­¾
+	b) é…ç½®æ–¹æ³•ï¼šå°†è¯¥æ’ä»¶æ”¾åœ¨.vim/pluginä¸­å³å¯
 
 	2. acp.vim
-	a) ½éÉÜ£º¸Ã²å¼þÓÃÓÚ×Ô¶¯²¹È«£¬Ö»ÄÜ²¹È«µ±Ç°ÎÄ¼þÖÐ³öÏÖ¹ýµÄ´Ê£¬²»ÄÜ²¹È«Ä³ÖÖ±à³ÌÓïÑÔµÄÄÚÖÃÀàÐÍ£¬
-	ÄÚÖÃ¹Ø¼ü´ÊµÈ¡£
-	b) ÅäÖÃ·½·¨£º½«¸Ã²å¼þ·ÅÔÚ.vim/pluginºÍ.vim/autoloadÖÐ¼´¿É£¬
-	(Á½¸öÄ¿Â¼µÄÏÂµÄacp.vimÎÄ¼þÃûÏàÍ¬£¬µ«ÄÚÈÝ²»Ò»Ñù)
+	a) ä»‹ç»ï¼šè¯¥æ’ä»¶ç”¨äºŽè‡ªåŠ¨è¡¥å…¨ï¼Œåªèƒ½è¡¥å…¨å½“å‰æ–‡ä»¶ä¸­å‡ºçŽ°è¿‡çš„è¯ï¼Œä¸èƒ½è¡¥å…¨æŸç§ç¼–ç¨‹è¯­è¨€çš„å†…ç½®ç±»åž‹ï¼Œ
+	å†…ç½®å…³é”®è¯ç­‰ã€‚
+	b) é…ç½®æ–¹æ³•ï¼šå°†è¯¥æ’ä»¶æ”¾åœ¨.vim/pluginå’Œ.vim/autoloadä¸­å³å¯ï¼Œ
+	(ä¸¤ä¸ªç›®å½•çš„ä¸‹çš„acp.vimæ–‡ä»¶åç›¸åŒï¼Œä½†å†…å®¹ä¸ä¸€æ ·)
 
 	3. a.vim
-	a) ½éÉÜ: ¸Ã²å¼þÓÃÓÚÔÚ.c/.cppºÍ¶ÔÓ¦µÄ.hÎÄ¼þÖ®¼äÇÐ»»£¬ÀýÈç123.c ºÍ 123.h
-	b) ÅäÖÃ·½·¨: ½«¸Ã²å¼þ·ÅÔÚ.vim/pluginÖÐ, ÎªÁË·½±ã£¬¿ÉÒÔÔÚ.vimrcÖÐÓ³ÉäÏà¹ØÃüÁî
-	c) ³£ÓÃÃüÁî£º
-		:A  ÔÚÐÂbufferÖÐÇÐ»»
-		:AS ÔÚºáÏò·Ö¸îµÄÐÂ´°¿ÚÖÐÇÐ»»
-		:AV ÔÚ×ÝÏò·Ö¸îµÄÐÂ´°¿ÚÖÐÇÐ»»
+	a) ä»‹ç»: è¯¥æ’ä»¶ç”¨äºŽåœ¨.c/.cppå’Œå¯¹åº”çš„.hæ–‡ä»¶ä¹‹é—´åˆ‡æ¢ï¼Œä¾‹å¦‚123.c å’Œ 123.h
+	b) é…ç½®æ–¹æ³•: å°†è¯¥æ’ä»¶æ”¾åœ¨.vim/pluginä¸­, ä¸ºäº†æ–¹ä¾¿ï¼Œå¯ä»¥åœ¨.vimrcä¸­æ˜ å°„ç›¸å…³å‘½ä»¤
+	c) å¸¸ç”¨å‘½ä»¤ï¼š
+		:A  åœ¨æ–°bufferä¸­åˆ‡æ¢
+		:AS åœ¨æ¨ªå‘åˆ†å‰²çš„æ–°çª—å£ä¸­åˆ‡æ¢
+		:AV åœ¨çºµå‘åˆ†å‰²çš„æ–°çª—å£ä¸­åˆ‡æ¢
 
 	4. NERD_tree.vim
-	a) ½éÉÜ£º¸Ã²å¼þÓÃÓÚä¯ÀÀÎÄ¼þ
-	b) ÅäÖÃ·½·¨£º¹ÙÍøÏÂÔØ£¬¸ù¾Ý¹ÙÍø½Ì³Ì°²×°
-	c) ³£ÓÃÃüÁî£º¹ÙÍø²é¿´¡£ÎªÁË·½±ã£¬¿ÉÒÔÔÙ.vimrcÖÐÓ³ÉäÏà¹ØÃüÁî
+	a) ä»‹ç»ï¼šè¯¥æ’ä»¶ç”¨äºŽæµè§ˆæ–‡ä»¶
+	b) é…ç½®æ–¹æ³•ï¼šå®˜ç½‘ä¸‹è½½ï¼Œæ ¹æ®å®˜ç½‘æ•™ç¨‹å®‰è£…
+	c) å¸¸ç”¨å‘½ä»¤ï¼šå®˜ç½‘æŸ¥çœ‹ã€‚ä¸ºäº†æ–¹ä¾¿ï¼Œå¯ä»¥å†.vimrcä¸­æ˜ å°„ç›¸å…³å‘½ä»¤
 
 	5. pydiction.vim
-	a) ½éÉÜ: ÓÃÓÚpythonµÄ×Ô¶¯²¹È«
-	b) ÅäÖÃ·½·¨: ¹ÙÍø
+	a) ä»‹ç»: ç”¨äºŽpythonçš„è‡ªåŠ¨è¡¥å…¨
+	b) é…ç½®æ–¹æ³•: å®˜ç½‘
 
 	6. python.vim
-	a) ½éÉÜ: pythonÓï·¨¸ßÁÁ
+	a) ä»‹ç»: pythonè¯­æ³•é«˜äº®
